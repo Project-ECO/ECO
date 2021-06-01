@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="Ven y revisa tu escritura con nosotros el Centro de Escritura Eficacia Comunicativa -ECO- de la Universidad del Norte" />
+  <meta name="docsearch:language" content="es" />
+  <title>ECO</title>
+  <link href="https://fonts.googleapis.com/css?family=Oxygen:400,300,700" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+  <nav id="header-nav" class="navbar navbar-default">
+    <div class="container">
+      <div>
+        <a class="pull-left visible-md visible-lg">
+          <div id="mix-img"></div>
+        </a>
+
+        <a href="https://www.uninorte.edu.co/web/instituto-de-idiomas/centro-de-escritura-eco" class="pull-left visible-md visible-lg" target="blank">
+          <div id="logo-img"></div>
+        </a>
+
+        <div id="nav-right" class="pull-right">
+          <a href="login.html" class="pull-right visible-md visible-lg">
+            <div id="nav-purple" class="nav-form"></div>
+          </a>
+
+          <a href="appointment.html" class="pull-right visible-md visible-lg">
+            <div id="nav-yellow" class="nav-form"></div>
+          </a>
+
+          <a href="secretary.html" class="pull-right visible-md visible-lg">
+            <div id="nav-blue" class="nav-form"></div>
+          </a>
+        </div>
+      </div>
+      <!-- .container -->
+  </nav>
+  <!-- #header-nav -->
+  <div id="main-content" class="container">
+    <iframe
+      src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23F6BF26&amp;ctz=America%2FBogota&amp;src=Y19vc3NucnNzMG5sbXM5aTR2YzNna2ZqcXAwb0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t&amp;color=%238E24AA&amp;mode=WEEK&amp;showTz=0&amp;showCalendars=0&amp;showTabs=0&amp;showPrint=0&amp;showDate=1&amp;showNav=0"
+      style="border: solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+  </div>
+
+  <footer class="panel-footer">
+    <div class="container">
+      <div class="row">
+        <section id="logo-left" class="col-sm-4">
+          <img src="data/un-logo.png" alt="Universidad del Norte" />
+          <hr class="visible-xs" />
+        </section>
+        <section id="phrases" class="col-sm-4">
+          <p>
+            Somos un equipo de Guías de Escritura, que nos apasiona la lectura, la escritura, el conocimiento y el
+            placer de las buenas conversaciones.
+          </p>
+
+          <p>
+            ¡Únete al movimiento de las palabras!
+          </p>
+          <hr class="visible-xs" />
+        </section>
+
+        <section id="logo-right" class="col-sm-4">
+          <img src="data/un-logo.png" alt="Universidad del Norte">
+        </section>
+      </div>
+      <div id="copy" class="text-center">
+        &copy; Centro de Escritura Eficacia Comunicativa -ECO-
+      </div>
+    </div>
+  </footer>
+  <progress value="0" max="100" id = "uploader">0%</progress>
+    <input type = "file" value ="upload" id = "fileButton" />
+
+<!--firebase -->
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/8.6.3/firebase.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.6.3/firebase-auth.js"></script>
+
+  <!-- TODO: Add SDKs for Firebase products that you want to use
+       https://firebase.google.com/docs/web/setup#available-libraries -->
+  <script src="https://www.gstatic.com/firebasejs/8.6.3/firebase-analytics.js"></script>
+  
+
+
+
+<script>
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    var firebaseConfig = {
+    apiKey: "AIzaSyAtsrrDL-TQwPcipnDJ8nNAOzhS_4plyB8",
+    authDomain: "proyectopoogame.firebaseapp.com",
+    projectId: "proyectopoogame",
+    databaseURL: "https://proyectopoogame-default-rtdb.firebaseio.com/",
+    storageBucket: "proyectopoogame.appspot.com",
+    messagingSenderId: "94072332381",
+    appId: "1:94072332381:web:7f54ea68b69ec2426aadb4",
+    measurementId: "G-PXDJD7889D"
+  };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    firebase.analytics();
+     
+    var UserConect = null;
+  </script>
+
+  <!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <script src="js/jquery-2.1.4.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/barra.js"></script>
+</body>
+
+</html>
