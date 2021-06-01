@@ -1,0 +1,93 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: aliceblue;
+  font-family: "Oxygen", sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: white;
+  border-radius: 0;
+  border: 0;
+}
+
+#mix-img {
+  background: url("../data/nav-mix.png") no-repeat;
+  width: 242px;
+  height: 150px;
+  margin: 0;
+}
+
+#logo-img {
+  background: url("../data/logo.png") no-repeat;
+  width: 195px;
+  height: 125.61px;
+  margin: 13px 0 0 0;
+}
+
+#nav-purple {
+  background: url("../data/nav-purple.png") no-repeat;
+}
+
+#nav-yellow {
+  background: url("../data/nav-yellow.png") no-repeat;
+}
+
+#nav-blue {
+  background: url("../data/nav-blue.png") no-repeat;
+}
+.nav-form {
+  width: 200px;
+  height: 150px;
+  padding-top: -25px;
+}
+.navbar-brand {
+  padding-top: 25px;
+}
+.navbar-brand a:hover,
+.navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #951c49;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #e7e7e7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+/* END HEADER */
+
+/* FOOTER */
+.panel-footer {
+  margin-top: 30px;
+  padding-top: 35px;
+  padding-bottom: 30px;
+  background-color: #222;
+  border-top: 0;
+}
+.panel-footer div.row {
+  margin-bottom: 35px;
+}
+#phrases {
+  font-style: italic;
+}
+#phrases p:nth-child(2) {
+  margin-top: 25px;
+}
+#logo-right{
+  padding-left: 15%;
+}
+
+#copy{
+  font-size: 0.8em;
+}
+/* END FOOTER */
